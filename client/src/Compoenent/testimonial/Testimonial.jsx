@@ -10,7 +10,7 @@ const testimonials = [
   },
 ];
 
-const TestimonialCarousel = () => {
+const Testimonial = () => {
   return (
     <div className="testimonial-section">
       <h2 className="testimonial-heading">
@@ -43,4 +43,4 @@ const TestimonialCarousel = () => {
   );
 };
 
-export default TestimonialCarousel;
+export default Testimonial;
