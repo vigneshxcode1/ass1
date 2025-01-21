@@ -1,0 +1,83 @@
+.promo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #001e3c; /* Dark blue background */
+    color: #ffffff;
+    padding: 3rem;
+    gap: 2rem;
+    position: relative;
+  }
+  
+  .promo-content {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .promo-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .promo-content .highlight {
+    color: #e63946; /* Red highlight color */
+  }
+  
+  .promo-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .promo-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .promo-button {
+    background-color: #e63946; /* Red button */
+    color: #ffffff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .promo-button:hover {
+    background-color: #c12739; /* Darker red on hover */
+  }
+  
+  .promo-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .promo-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../../images/footimg.jpg") no-repeat center;
+    opacity: 0.1; 
+    z-index: -1;
+  }
+  
+  @media (max-width: 768px) {
+    .promo-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .promo-content {
+      max-width: 100%;
+    }
+  
+    .promo-content p {
+      margin-bottom: 1rem;
+    }
+  }
+  

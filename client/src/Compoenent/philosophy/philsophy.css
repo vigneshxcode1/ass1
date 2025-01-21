@@ -1,0 +1,121 @@
+
+.philosohy-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .philosohy-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .philosohy-header h2 {
+    font-size: 2.5rem;
+    color: #cd1818;
+  }
+  
+  .philosohy-header p {
+    font-size:1rem;
+    color: #555;
+    line-height: 1.6;
+  margin-top: 20px;
+  }
+  
+  .philosohy-header .cta-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .philosohy-header .cta-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .philosohy-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .philosohy-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: calc(33.33% - 1rem);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .philosohy-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .philosohy-card img {
+    max-width: 40%;
+    height: 50%;
+    border-radius: 8px;
+  }
+  
+  .philosohy-card h3 {
+    font-size: 10px;
+    margin: 1rem 0 0.5rem;
+    color: #b63b12;
+  }
+  
+  .philosohy-card p {
+    color: #c01f1f;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 1024px) {
+    .philosohy-card {
+      width: calc(50% - 1rem);
+    }
+  
+    .philosohy-header h2 {
+      font-size: 2rem;
+    }
+  
+    .philosohy-header p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .philosohy-card {
+      width: 100%;
+    }
+  
+    .philosohy-header h2 {
+      font-size: 1.8rem;
+    }
+  
+    .philosohy-header p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .philosohy-header h2 {
+      font-size: 1.5rem;
+    }
+  
+    .philosohy-header p {
+      font-size: 0.9rem;
+    }
+  
+    .philosohy-header .cta-link {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+    }
+  }
+  
